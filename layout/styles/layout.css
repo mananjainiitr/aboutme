@@ -392,16 +392,16 @@ table a, #comments a{background-color:inherit;}
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width:800px){
+@media screen and (max-width:300px){
 	.hoc{max-width:1140px;}
 }
 
 
 /* Mobile Devices
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width:1028px){
-	.hoc{max-width:100%;}
-	#heading{max-width:100%;}
+@media screen and (min-width:980px){
+	.hoc{max-width: 90%;}
+	#heading{max-width:30%;}
 
 	#topbar{}
 
